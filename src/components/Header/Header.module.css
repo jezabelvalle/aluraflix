@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 2.5em;
+    background-color: black;
+    width: Fixed (1,443px)px;
+    height: Fixed (130px)px;
+    left: -3px;
+    gap: 787px;
+
+}
+
+a{ text-decoration: none;}
+
+.logoContainer{
+    height: 40px;
+    display: flex;
+    align-items: end;
+}
+
+.header img{
+    align-self: end;
+}
+
+.header button{
+    width: 167px;
+    height: 54px;
+    top: 187px;
+    left: 277px;
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    background: #000000E5;
+    color: rgb(105, 119, 226);
+    border: 3px solid var(--Blue, #2271D1);
+    margin-right: 10px;
+    box-shadow: inset 0px 5px 29px 0px #2271D1B2;
+
+    }
+
+.header button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
